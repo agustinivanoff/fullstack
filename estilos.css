@@ -1,20 +1,85 @@
+/*
+font-family: 'Italianno', cursive;
+font-family: 'Nunito', sans-serif;
+*/
 * {
     margin: 0;
     padding: 0;
-   }
+  }
   
-  
-  body {
-    margin: 0 auto;
+
+body {
+    margin: 0 auto; 
+    border-radius: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,1,1,1) 0%, rgba(20,117,242,1) 0%, rgba(1,1,1,1) 0%, rgba(52,148,167,1) 0%, rgba(242,240,240,1) 0%);
   } 
+  
+.social-media{ 
+    text-align: right;
+    font-size: 50px;
+  }
 
- h2 {
-    font-style: italic ;
+
+.background-1{
+  
+    border-radius: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,84,238,1) 0%, rgba(1,1,1,1) 0%, rgba(20,117,242,1) 0%, rgba(1,1,1,1) 0%, rgba(52,148,167,1) 0%);
+  }
+
+
+
+.image-background{
+  padding: 4px;
+  border-radius:120px;
+}
+
+.personal-info{
+  margin-left:12%;
+  display: inline-block;
+  font-family: 'Italianno';
+  text-align: center;
+  font-size: 24px;
+}
+
+
+ .background-2{
+  
  }
- h3 {color: blue;}
 
- p {font-size: 20px;
+
+.about-me{
+  display: inline-block; 
+ 
+}
+
+.about-me li{
+  font-family: 'Nunito', sans-serif;
+}
+
+.personal-info-2{
+  padding: 10px;
+  display: inline-block;
+
+}
+
+.work-experience{
+  border: 1px solid red;
+  margin-top: 50px;
+
+}
+ h2 {
+    
+ }
+ h3 {}
+
+ p {
+   
+font-size: 20px;
  }
  footer {
-     background-color: burlywood;
+
  }
+
+ /*agregar columnas*/
